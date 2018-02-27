@@ -27,7 +27,7 @@ import QrCode from '@parity/ui/lib/QrCode';
 import QrScan from '@parity/ui/lib/QrScan';
 import stores from '@parity/mobx';
 
-import styles from './confirmViaQr.css';
+import styles from './ConfirmViaQr.css';
 
 const QR_VISIBLE = 1;
 const QR_SCAN = 2;
