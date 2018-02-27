@@ -51,7 +51,7 @@ export default class ConfirmViaQr extends Component {
   state = {
     qrState: QR_VISIBLE,
     qr: {}
-  }
+  };
 
   componentWillMount () {
     this.readNonce();
@@ -65,26 +65,18 @@ export default class ConfirmViaQr extends Component {
   render () {
     const { address, isDisabled } = this.props;
     const confirmText = this.renderConfirmText();
-    const confirmButton = confirmText
-      ? (
-        <div>
-          <Button
-            className={ styles.confirmButton }
-            isDisabled={ isDisabled }
-            fullWidth
-            icon={
-              <IdentityIcon
-                address={ address }
-                button
-                className={ styles.signerIcon }
-              />
-            }
-            label={ confirmText }
-            onClick={ this.onConfirm }
-          />
-        </div>
-      )
-      : null;
+    const confirmButton = confirmText ? (
+      <div>
+        <Button
+          className={ styles.confirmButton }
+          isDisabled={ isDisabled }
+          fullWidth
+          icon={ <IdentityIcon address={ address } button className={ styles.signerIcon } /> }
+          label={ confirmText }
+          onClick={ this.onConfirm }
+        />
+      </div>
+    ) : null;
 
     return (
       <div className={ styles.confirmForm }>
@@ -102,12 +94,7 @@ export default class ConfirmViaQr extends Component {
     const { qrState } = this.state;
 
     if (qrState === QR_VISIBLE) {
-      return (
-        <FormattedMessage
-          id='signer.txPendingConfirm.buttons.scanSigned'
-          defaultMessage='Scan Signed QR'
-        />
-      );
+      return <FormattedMessage id='signer.txPendingConfirm.buttons.scanSigned' defaultMessage='Scan Signed QR' />;
     }
 
     return null;
@@ -150,12 +137,7 @@ export default class ConfirmViaQr extends Component {
       return null;
     }
 
-    return (
-      <QrCode
-        className={ styles.qr }
-        value={ qr.value }
-      />
-    );
+    return <QrCode className={ styles.qr } value={ qr.value } />;
   }
 
   renderQrScanner () {
@@ -165,15 +147,10 @@ export default class ConfirmViaQr extends Component {
       return null;
     }
 
-    return (
-      <QrScan
-        className={ styles.camera }
-        onScan={ this.onScan }
-      />
-    );
+    return <QrScan className={ styles.camera } onScan={ this.onScan } />;
   }
 
-  onScan = (signature) => {
+  onScan = signature => {
     const { api } = this.context;
     const { request } = this.props;
     const { qr } = this.state;
@@ -200,7 +177,7 @@ export default class ConfirmViaQr extends Component {
       // and parity_decryptMessage. -Amaury 27.02.2018
       return api.signer.confirmRequestRaw(request.id, qr.signature);
     }
-  }
+  };
 
   onConfirm = () => {
     const { qrState } = this.state;
@@ -210,7 +187,7 @@ export default class ConfirmViaQr extends Component {
     }
 
     this.setState({ qrState: QR_SCAN });
-  }
+  };
 
   generateQr = () => {
     const { api } = this.context;
@@ -223,7 +200,9 @@ export default class ConfirmViaQr extends Component {
     };
 
     if (transaction) {
-      if (!netVersion) { return; } // The subscribeNonce timer will re-run until netVersion is set
+      if (!netVersion) {
+        return;
+      } // The subscribeNonce timer will re-run until netVersion is set
       generateTxQr(api, netVersion, transaction).then(setState);
       return;
     }
@@ -234,7 +213,7 @@ export default class ConfirmViaQr extends Component {
     }
 
     generateDataQr(sign.data).then(setState);
-  }
+  };
 
   subscribeNonce () {
     const nonceTimerId = setInterval(this.readNonce, 1000);
@@ -266,14 +245,12 @@ export default class ConfirmViaQr extends Component {
       return;
     }
 
-    return api.parity
-      .nextNonce(address)
-      .then((newNonce) => {
-        const { nonce } = this.state.qr;
+    return api.parity.nextNonce(address).then(newNonce => {
+      const { nonce } = this.state.qr;
 
-        if (!nonce || !newNonce.eq(nonce)) {
-          this.generateQr();
-        }
-      });
-  }
+      if (!nonce || !newNonce.eq(nonce)) {
+        this.generateQr();
+      }
+    });
+  };
 }
