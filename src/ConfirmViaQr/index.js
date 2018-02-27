@@ -11,11 +11,9 @@
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 
-import React from 'react';
-import SignerRequest from '@parity/ui/lib/Signer/Request';
+// You should have received a copy of the GNU General Public License
+// along with Parity.  If not, see <http://www.gnu.org/licenses/>.
 
 import ConfirmViaQr from './ConfirmViaQr';
 
-export default function Request ({ ...props }) {
-  return <SignerRequest confirmElement={ ConfirmViaQr } { ...props } />;
-}
+export default ConfirmViaQr;
