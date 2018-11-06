@@ -34,7 +34,7 @@ const QR_SCAN = 2;
 const QR_COMPLETED = 3;
 
 @observer
-export default class ConfirmViaQr extends Component {
+class ConfirmViaQr extends Component {
   static contextTypes = {
     api: PropTypes.object.isRequired
   };
@@ -254,3 +254,5 @@ export default class ConfirmViaQr extends Component {
     });
   };
 }
+
+export default ConfirmViaQr;
