@@ -433,7 +433,7 @@ babel-helper-explode-class@^6.24.1:
     babel-traverse "^6.24.1"
     babel-types "^6.24.1"
 
-babel-helper-function-name@^6.23.0, babel-helper-function-name@^6.24.1:
+babel-helper-function-name@^6.24.1:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-helper-function-name/-/babel-helper-function-name-6.24.1.tgz#d3475b8c03ed98242a25b48351ab18399d3580a9"
   dependencies:
@@ -600,16 +600,7 @@ babel-plugin-transform-class-constructor-call@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-plugin-transform-class-properties@6.23.0:
-  version "6.23.0"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.23.0.tgz#187b747ee404399013563c993db038f34754ac3b"
-  dependencies:
-    babel-helper-function-name "^6.23.0"
-    babel-plugin-syntax-class-properties "^6.8.0"
-    babel-runtime "^6.22.0"
-    babel-template "^6.23.0"
-
-babel-plugin-transform-class-properties@^6.24.1:
+babel-plugin-transform-class-properties@6.24.1, babel-plugin-transform-class-properties@^6.24.1:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.24.1.tgz#6a79763ea61d33d36f37b611aa9def81a81b46ac"
   dependencies:
@@ -1013,7 +1004,7 @@ babel-runtime@^6.18.0, babel-runtime@^6.2.0, babel-runtime@^6.22.0, babel-runtim
     core-js "^2.4.0"
     regenerator-runtime "^0.11.0"
 
-babel-template@^6.23.0, babel-template@^6.24.1, babel-template@^6.26.0, babel-template@^6.3.0:
+babel-template@^6.24.1, babel-template@^6.26.0, babel-template@^6.3.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-template/-/babel-template-6.26.0.tgz#de03e2d16396b069f46dd9fff8521fb1a0e35e02"
   dependencies:
