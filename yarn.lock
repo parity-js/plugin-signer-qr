@@ -327,10 +327,10 @@
     useragent.js "^0.5.6"
     yargs "6.6.0"
 
-"@parity/ui@^3.1.15":
-  version "3.1.15"
-  resolved "https://registry.yarnpkg.com/@parity/ui/-/ui-3.1.15.tgz#532fc77338b3485b4c2afbbd65526f466130d1e2"
-  integrity sha512-lXK2OfesOj6/T7wUKHzjf0cVc9BzqIqHAcZARkoqXne9LeyrUwF7yQ5AQmRIfKDi5+S/h6+Q8uAOzWi6yoOIXw==
+"@parity/ui@^3.1.17":
+  version "3.1.17"
+  resolved "https://registry.yarnpkg.com/@parity/ui/-/ui-3.1.17.tgz#981e62538c9e77c999d40c18162fcd7a50443a38"
+  integrity sha512-KUrV4mGXd7M94Y+1w/PafrTir+o9OnRgLWoSLkQTmJ4lq2M41o+TX15XD2kulA+YeIrvDCFF5tD0eTEMOx8btQ==
   dependencies:
     "@parity/api" "^2.1.23"
     "@parity/etherscan" "2.1.x"
@@ -338,7 +338,7 @@
     "@parity/shared" "~3.0.2"
     babel-runtime "^6.26.0"
     bignumber.js "8.0.1"
-    brace "0.11.0"
+    brace "0.11.1"
     date-difference "1.0.0"
     eventemitter3 "^3.1.0"
     file-saver "1.3.8"
@@ -350,14 +350,14 @@
     qrcode-generator "1.4.1"
     react-ace "6.2.0"
     react-copy-to-clipboard "5.0.1"
-    react-datetime "2.11.0"
+    react-datetime "2.16.2"
     react-dom "16.6.1"
     react-dropzone "7.0.1"
     react-element-to-jsx-string "14.0.2"
     react-event-listener "^0.6.4"
     react-intl "2.7.2"
     react-markdown "^4.0.3"
-    react-portal "4.0.0"
+    react-portal "4.1.5"
     react-qr-reader "2.1.1"
     react-redux "^5.0.6"
     react-router "^4.3.1"
@@ -1544,12 +1544,7 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
-brace@0.11.0:
-  version "0.11.0"
-  resolved "https://registry.yarnpkg.com/brace/-/brace-0.11.0.tgz#155cd80607687dc8cb908f0df94e62a033c1d563"
-  integrity sha1-FVzYBgdofcjLkI8N+U5ioDPB1WM=
-
-brace@^0.11.1:
+brace@0.11.1, brace@^0.11.1:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/brace/-/brace-0.11.1.tgz#4896fcc9d544eef45f4bb7660db320d3b379fe58"
   integrity sha1-SJb8ydVE7vRfS7dmDbMg07N5/lg=
@@ -5154,10 +5149,10 @@ react-copy-to-clipboard@5.0.1:
     copy-to-clipboard "^3"
     prop-types "^15.5.8"
 
-react-datetime@2.11.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-2.11.0.tgz#6560a8e5b81f7e52986083dc2e8cb94bb74528ea"
-  integrity sha512-LfToQVZrFjH9b+R4PWemo/jJcWawHWHL+eF1HFWGZ9zGXXgy7d/X1+PzJUBYiZfteFM+VSdaHvYyqReqP/nGaQ==
+react-datetime@2.16.2:
+  version "2.16.2"
+  resolved "https://registry.yarnpkg.com/react-datetime/-/react-datetime-2.16.2.tgz#d5d41fe3f6f3fa8fa1b068f2fae75cec25e1bb39"
+  integrity sha512-QjQIixhmsbAQZSe2nlliTWAqdmckov3+rEL/s/uxw9LcM/V7vaFX0DIVRHksi1IsIqUG2AgM/4EX+aMZwXMMGg==
   dependencies:
     create-react-class "^15.5.2"
     object-assign "^3.0.0"
@@ -5233,10 +5228,10 @@ react-onclickoutside@^6.5.0:
   resolved "https://registry.yarnpkg.com/react-onclickoutside/-/react-onclickoutside-6.7.1.tgz#6a5b5b8b4eae6b776259712c89c8a2b36b17be93"
   integrity sha512-p84kBqGaMoa7VYT0vZ/aOYRfJB+gw34yjpda1Z5KeLflg70HipZOT+MXQenEhdkPAABuE2Astq4zEPdMqUQxcg==
 
-react-portal@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-4.0.0.tgz#d327b495dc72a305e8a3e351f212a2d94677f913"
-  integrity sha512-EplgMeLOJrR/DVuuxR9YI8NM1FGTP0I0o5sq/FSjDIDUSvcmMU7IPPp+p5EWU7Vmm520oByl4nDixvlUh5TyAA==
+react-portal@4.1.5:
+  version "4.1.5"
+  resolved "https://registry.yarnpkg.com/react-portal/-/react-portal-4.1.5.tgz#6665d4d2a92d47d6f8b07a6529e26fc52d5cccde"
+  integrity sha512-jJMy9DoVr4HRWPdO8IP/mDHP1Q972/aKkulVQeIrttOIyRNmCkR2IH7gK3HVjhzxy6M+k9TopSWN5q41wO/o6A==
   dependencies:
     prop-types "^15.5.8"
 
