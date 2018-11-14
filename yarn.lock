@@ -327,10 +327,10 @@
     useragent.js "^0.5.6"
     yargs "6.6.0"
 
-"@parity/ui@^3.1.17":
-  version "3.1.17"
-  resolved "https://registry.yarnpkg.com/@parity/ui/-/ui-3.1.17.tgz#981e62538c9e77c999d40c18162fcd7a50443a38"
-  integrity sha512-KUrV4mGXd7M94Y+1w/PafrTir+o9OnRgLWoSLkQTmJ4lq2M41o+TX15XD2kulA+YeIrvDCFF5tD0eTEMOx8btQ==
+"@parity/ui@^3.1.18":
+  version "3.1.18"
+  resolved "https://registry.yarnpkg.com/@parity/ui/-/ui-3.1.18.tgz#4a67d10c3db3a6faaf93f2e50741962e77a11123"
+  integrity sha512-gkXvjdUV9KnznNSDwfLGJYEfZmqt7uMOCA3kivNSl42bPzU18bYpzQXQ+qqUp6HhY5mfay67lCKbCfO4PVBoAQ==
   dependencies:
     "@parity/api" "^2.1.23"
     "@parity/etherscan" "2.1.x"
@@ -343,7 +343,7 @@
     eventemitter3 "^3.1.0"
     file-saver "1.3.8"
     geopattern "1.2.3"
-    js-sha3 "0.6.1"
+    js-sha3 "0.8.0"
     keycode "^2.1.9"
     lodash "4.17.11"
     moment "^2.21.0"
@@ -364,7 +364,7 @@
     react-tooltip "3.9.0"
     recharts "1.3.6"
     redux "4.0.1"
-    semantic-ui-css "2.2.12"
+    semantic-ui-css "2.4.1"
     semantic-ui-react "0.83.0"
     zxcvbn "4.4.2"
 
@@ -3906,10 +3906,10 @@ js-sha3@0.5.5:
   resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.5.5.tgz#baf0c0e8c54ad5903447df96ade7a4a1bca79a4a"
   integrity sha1-uvDA6MVK1ZA0R9+Wreekobynmko=
 
-js-sha3@0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.6.1.tgz#5b89f77a7477679877f58c4a075240934b1f95c0"
-  integrity sha1-W4n3enR3Z5h39YxKB1JAk0sflcA=
+js-sha3@0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.8.0.tgz#b9b7a5da73afad7dedd0f8c463954cbde6818840"
+  integrity sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==
 
 js-tokens@^3.0.0, js-tokens@^3.0.2:
   version "3.0.2"
@@ -5876,10 +5876,10 @@ secp256k1@^3.0.1:
     nan "^2.2.1"
     safe-buffer "^5.1.0"
 
-semantic-ui-css@2.2.12:
-  version "2.2.12"
-  resolved "https://registry.yarnpkg.com/semantic-ui-css/-/semantic-ui-css-2.2.12.tgz#afc462e5bb4f8a0dcfe3dca11274499a997490dd"
-  integrity sha512-RrA3k6hya+kEMDmVLT38SBTDQD8FgdnFi16eMPuQ1N1xUOoBxKzr+HZASb7Zo3xlMvkYqEWvPIp58Wjl6Zcsfg==
+semantic-ui-css@2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/semantic-ui-css/-/semantic-ui-css-2.4.1.tgz#f5aea39fafb787cbd905ec724272a3f9cba9004a"
+  integrity sha512-Pkp0p9oWOxlH0kODx7qFpIRYpK1T4WJOO4lNnpNPOoWKCrYsfHqYSKgk5fHfQtnWnsAKy7nLJMW02bgDWWFZFg==
   dependencies:
     jquery x.*
 
