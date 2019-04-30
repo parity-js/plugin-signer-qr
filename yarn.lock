@@ -381,10 +381,10 @@
     useragent.js "^0.5.6"
     yargs "6.6.0"
 
-"@parity/ui@^3.1.22":
-  version "3.1.22"
-  resolved "https://registry.yarnpkg.com/@parity/ui/-/ui-3.1.22.tgz#cbc331be5cc7753c6be8d4e7dc26f48cb90b6627"
-  integrity sha512-aq5BHgRBIbd+aensUnLNZ+4fOIbPP4XfEqrWwF/RuF2IJDrWneKNpS4nk64QNd2zGx1EWSvQRsUyPVxiiBKJsw==
+"@parity/ui@^3.1.24":
+  version "3.1.24"
+  resolved "https://registry.yarnpkg.com/@parity/ui/-/ui-3.1.24.tgz#d73ad8db8217866430fb4730568ddfb4f8115ca8"
+  integrity sha512-LfinLEl7BqMu+URmhGg2S3ONwNJ2/GKgvk2Lnnf9AAQ7uNaZinpP9yy5staMATbhSroGn9lLfhE58SJDvXS00g==
   dependencies:
     "@parity/api" "^4.0.2"
     "@parity/etherscan" "2.1.x"
