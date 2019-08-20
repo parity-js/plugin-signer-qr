@@ -5354,10 +5354,10 @@ react-intl@2.8.0:
     intl-relativeformat "^2.1.0"
     invariant "^2.1.1"
 
-react-intl@^3.1.7:
-  version "3.1.7"
-  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-3.1.7.tgz#332ab7861882a1c68482a4128ae1083d4621f107"
-  integrity sha512-bsEQETQ9Ihk0a+z0WDdZhFRlP5MhbIfZJFG1D8IeYu7u7Y0tRYjLt2VDHEUBGsi7OIbTOPl2VTMXtRsb6BHP/Q==
+react-intl@^3.1.8:
+  version "3.1.8"
+  resolved "https://registry.yarnpkg.com/react-intl/-/react-intl-3.1.8.tgz#4343e43684a4bc5966b5a7ad1e39c86b31018c4f"
+  integrity sha512-kUQvTfDvMpgvwDldsmTy/XQPPgaSquh3+mL0iEspKkGqtAM9J9p25jNy8+cP0w/Y5LfWQFniUjlEdCDznoTZ/Q==
   dependencies:
     "@formatjs/intl-relativetimeformat" "^2.6.3"
     "@types/hoist-non-react-statics" "^3.3.1"
